@@ -1,3 +1,6 @@
+/*
+Init wl_display and running
+*/
 #include <stdio.h>
 #include <wayland-server.h>
 

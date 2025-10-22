@@ -1,5 +1,6 @@
 #include <wayland-server.h>
 #include <stdio.h>
+#include <stdint.h>
 
 void handle_mouse_click(struct wl_display *display, struct wl_resource *pointer_resource, uint32_t button) {
     uint32_t serial = wl_display_next_serial(display);
